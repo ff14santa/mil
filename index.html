@@ -5,7 +5,7 @@ layout: default
 
 {% for member in sorted_members %}
 	<div class="d-flex align-items-center p-3 my-3 rounded shadow-sm" style="background-color: #4d784e; color: rgba(255, 255, 255, .5);">
-		<img class="mr-3" src="{{site.url}}{{site.baseurl}}images/soldier.svg" alt="" width="48" height="48">
+		<img class="mr-3" src="{% if member.image %}{{ member.image }}{% else %}{{site.url}}{{site.baseurl}}images/soldier.svg{% endif %}" alt="" width="48" height="48">
 		<div class="lh-100">
 		  <h6 class="mb-0 text-white lh-100">{{ member.name }}</h6>
 		  <small>{{ member.description }}</small>
