@@ -1,4 +1,10 @@
-﻿- name: 웰시꼬기
+﻿- name: Rilakuma
+  start: 2020-05-19
+  end: 2024-07-31
+  description: 전역시켜주세요~
+  image:
+
+- name: 웰시꼬기
   start: 2021-08-17
   end: 2023-02-16
   description: 복무신조 우리의결의
