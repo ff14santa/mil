@@ -1,4 +1,10 @@
-﻿- name: 젤라또맛
+﻿- name: 웰시꼬기
+  start: 2021-08-17
+  end: 2023-02-16
+  description: 복무신조 우리의결의
+  image: https://cdn.discordapp.com/avatars/269079810322595850/a2acc55603cf2c671a8aba70c153a1d0.webp?size=240
+
+- name: 젤라또맛
   start: 2021-01-04
   end: 2022-07-03
   description: 아직도 이병임
